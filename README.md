@@ -115,7 +115,8 @@ The Kali Linux network configuration was checked and configured with a consisten
 
 
 ## Problem 1: Extracting the kali zip file and importing to virtual box
-After donloading m
+
+After downloading kali linux from the recommended site, i had a challenge imporing it into m virtalbox. I solved this challenge by first extracting kali linux using 7ip and then importing the virtualbox machine definition nto the virtual box.
 ---
 
 ## Problem 2: VirtualBox VT-x / Virtualization Error
@@ -136,50 +137,17 @@ After enabling virtualization, the VM started successfully.
 
 ---
 
-# 💡 What I Learned
+# What I Learned
 
-Through this project, I learned how to create and configure a virtual environment for cybersecurity practice.
-
-The most important concepts I learned include:
-
-### 1. NAT vs NAT Network
-
-A standard NAT configuration and a NAT Network serve different purposes.
-
-A NAT Network allows multiple VMs connected to the same virtual network to communicate with one another while providing network address translation for external connectivity.
-
-This makes it useful for building a multi-machine cybersecurity laboratory.
-
-### 2. Virtual Machine Networking
-
-I learned how VirtualBox virtual network adapters connect virtual machines to different types of networks and how network configuration affects communication between machines.
-
-### 3. Static IP Configuration
-
-I learned how to configure and verify IPv4 addressing, subnet masks, gateways, and DNS settings in Kali Linux.
-
-### 4. VM Snapshots
-
-I learned that a clean snapshot should be created **before performing risky or experimental activities**.
-
-This provides a known-good recovery point for future cybersecurity exercises.
-
-### 5. Documentation
-
-I learned that documenting commands, configuration, screenshots, problems, and solutions is an important part of a professional cybersecurity project.
-
----
+Through this project, I learned how to create and configure a virtual environment for cybersecurity practice. I also learned to extrct files using 7zip and enable virtualization.
 
 
 # Author
 
 Damilola Bello 
-Cybersecurity Professional B082
+Cybersecurity Professional B084
 
-LinkedIn: [https://www.linkedin.com/in/waqaskarim/](https://www.linkedin.com/in/waqaskarim/)
+LinkedIn: [https://www.linkedin.com/in/damilolabelloo/](https://www.linkedin.com/in/damilolabelloo/)
 
 ---
 
-## 📌 Project Information
-
-**Program Name:** Cybersecurity at N
