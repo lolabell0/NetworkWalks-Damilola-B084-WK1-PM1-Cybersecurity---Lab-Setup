@@ -22,18 +22,7 @@ The lab is isolated on a dedicated virtual network, permitting future expansion 
 
 ---
 
-## Objectives
 
-The primary objectives of this project include:
-- Installing and configuring Oracle VM VirtualBox.
-- Deploying and importing Kali Linux as a guest virtual machine.
-- Establishing an isolated **NAT Network** specifically for lab operations.
-- Configuring robust networking and static IP routing inside Kali Linux.
-- Validating end-to-end network reachability and external name resolution.
-- Capturing a clean operational baseline via VM snapshots.
-- Documenting the deployment procedures for reproducibility.
-
----
 
 ## Purpose of the Lab
 
@@ -56,7 +45,6 @@ This environment is built to offer a secure space for practical cybersecurity le
 ## Step 1. Install 7-Zip
 
 7-Zip was installed to extract the Kali Linux VM
-**Tool:** 7-Zip
 
 ---
 
@@ -70,7 +58,7 @@ VirtualBox was installed as the hypervisor.
 
 A dedicated NAT Network was created in VirtualBox using IPv4 Prefix:  10.0.0.0/24
 
-!Screenshot (2).png 
+<img width="1920" height="1080" alt="Screenshot (2)" src="https://github.com/user-attachments/assets/1c9ea4ee-42ee-4979-a9c6-791dd072312a" />
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -97,7 +85,8 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-![](3-screenshot-kali-linux.png)
+<img width="1920" height="936" alt="VirtualBox_kali-linux-2026 3-virtualbox-amd64_30_10_2026_18_05_32" src="https://github.com/user-attachments/assets/43c1c593-41c2-4940-8d2a-e5ea554f65bc" />
+
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
 ## Step 5: Configuration of the Kali linux Network
@@ -105,7 +94,8 @@ A shared folder was also configured for transferring required files between the 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address- 10.0.0.3
 
 
-![](4-screenshot-kali-network-settings.png)
+<img width="1920" height="936" alt="VirtualBox_kali-linux-2026 3-virtualbox-amd64_30_10_2026_13_10_47" src="https://github.com/user-attachments/assets/f7d09ead-2a21-4a88-b4eb-09646ad7a720" />
+
 
 ---
 
@@ -116,7 +106,7 @@ The Kali Linux network configuration was checked and configured with a consisten
 
 ## Problem 1: Extracting the kali zip file and importing to virtual box
 
-After downloading kali linux from the recommended site, i had a challenge imporing it into m virtalbox. I solved this challenge by first extracting kali linux using 7ip and then importing the virtualbox machine definition nto the virtual box.
+After downloading kali linux from the recommended site, i had a challenge imporing it into virtualbox. I solved this challenge by first extracting kali linux using 7zip and then importing the virtualbox machine definition into the virtual box.
 ---
 
 ## Problem 2: VirtualBox VT-x / Virtualization Error
