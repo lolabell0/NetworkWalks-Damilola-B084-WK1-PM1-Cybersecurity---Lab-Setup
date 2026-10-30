@@ -73,8 +73,6 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 
 The VM network adapter was configured as follows:
 
-<img width="960" height="595" alt="Kali snapshot" src="https://github.com/user-attachments/assets/a6d9c371-e9f8-4abe-9043-f5a22a159499" />
-
 
 <img width="1920" height="936" alt="VirtualBox_kali-linux-2026 3-virtualbox-amd64_30_10_2026_18_05_32" src="https://github.com/user-attachments/assets/43c1c593-41c2-4940-8d2a-e5ea554f65bc" />
 
