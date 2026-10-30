@@ -73,18 +73,9 @@ The Kali Linux virtual machine was downloaded from the official Kali Linux websi
 
 The VM network adapter was configured as follows:
 
-```text
-Adapter 1
-Attached to: NAT Network
-Network:     NatNetwork
-Adapter Type: Intel PRO/1000 MT Desktop
-```
+<img width="960" height="595" alt="Kali snapshot" src="https://github.com/user-attachments/assets/a6d9c371-e9f8-4abe-9043-f5a22a159499" />
 
-The VM was allocated:
 
-```text
-RAM: 2048 MB
-```
 <img width="1920" height="936" alt="VirtualBox_kali-linux-2026 3-virtualbox-amd64_30_10_2026_18_05_32" src="https://github.com/user-attachments/assets/43c1c593-41c2-4940-8d2a-e5ea554f65bc" />
 
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
@@ -100,6 +91,8 @@ The Kali Linux network configuration was checked and configured with a consisten
 ---
 
 ## Step 6: VM Snapshot
+<img width="960" height="595" alt="Kali snapshot" src="https://github.com/user-attachments/assets/c2d57b4e-5109-43b7-a99c-71394454d677" />
+
 
 # Problems Encountered & Solutions
 
