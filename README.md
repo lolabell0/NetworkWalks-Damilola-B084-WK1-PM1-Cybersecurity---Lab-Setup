@@ -70,7 +70,7 @@ VirtualBox was installed as the hypervisor.
 
 A dedicated NAT Network was created in VirtualBox using IPv4 Prefix:  10.0.0.0/24
 
-![](2-screenshot-network-settings-1.png)
+!C:\Users\User\Pictures\Screenshots
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -100,7 +100,7 @@ RAM: 2048 MB
 ![](3-screenshot-kali-linux.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
-## Step 5. Configure the Kali Linux Network
+## Step 5: Configuration of the Kali linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
@@ -113,12 +113,11 @@ Gateway: 10.0.0.1
 DNS: 8.8.8.8
 ```
 
-A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
 ![](4-screenshot-kali-network-settings.png)
 
 ---
 
-## Step 6. Create a Clean VM Snapshot
+## Step 6: VM Snapshot
 
 
